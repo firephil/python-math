@@ -1,11 +1,4 @@
-"""Finds prime numbers up to a given limit using the Sieve of Eratosthenes.
-
-    Args:
-        limit: The upper limit for finding primes.
-
-    Returns:
-        A list of prime numbers less than or equal to the limit.
-"""
+# More examples at https://rosettacode.org/wiki/Sieve_of_Eratosthenes#Python
 
 def sieve_of_eratosthenes(limit):
 
@@ -24,4 +17,4 @@ def sieve_of_eratosthenes(limit):
 # Example usage
 limit = 100
 primes = sieve_of_eratosthenes(limit)
-print(primes) 
+print(primes)
