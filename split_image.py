@@ -1,11 +1,15 @@
 from PIL import Image
 import os
 
+
+# use parcify.py instead of manual spliting
+
+
 # Get the current directory
 dir = os.path.dirname(__file__)
 
 # Check image dimensions
-image_path = os.path.join(dir, "black_girl.png")
+image_path = os.path.join(dir, "sample.png")
 image = Image.open(image_path)
 image_width, image_height = image.size
 
