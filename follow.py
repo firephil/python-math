@@ -5,6 +5,6 @@ bot.login(username="",
           password="")
  
 # Count number of followers
-followers = bot.get_user_followers("neo_art_diva")
+followers = bot.get_user_followers("")
 print("Total number of followers:")
 print(len(followers))
