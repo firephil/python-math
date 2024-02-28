@@ -1,0 +1,14 @@
+[
+    {
+        "name": "bill",
+        "children": "2"
+    },
+    {
+        "name": "nick",
+        "children": "1"
+    },
+    {
+        "name": "peter",
+        "children": "0"
+    }
+]
