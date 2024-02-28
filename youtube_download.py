@@ -1,5 +1,7 @@
 from pytube import YouTube
+from halo import Halo
 
+@Halo(text='Downloading', spinner='dots')
 def Download(link):
     youtubeObject = YouTube(link)
     youtubeObject = youtubeObject.streams.get_highest_resolution()
@@ -7,7 +9,7 @@ def Download(link):
         youtubeObject.download()
     except:
         print("An error has occurred")
-    print("Download is completed successfully")
+    print("\n Download is completed successfully")
 
 
 link = input("Enter the YouTube video URL: ")
