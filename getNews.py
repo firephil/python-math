@@ -1,5 +1,10 @@
-from gnews import GNews
+# pip install GoogleNews
+# https://pypi.org/project/GoogleNews/
 
-news = GNews()
+from GoogleNews import GoogleNews
 
-news.get_top_news()
+
+googlenews = GoogleNews(lang='en', region='US')
+googlenews.get_news('APPLE')
+googlenews.results()
+
